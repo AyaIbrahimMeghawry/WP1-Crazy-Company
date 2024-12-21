@@ -1,0 +1,153 @@
+
+
+.navbar{
+  background-color: #0a765e;
+  height: 86px;
+  overflow: hidden;
+  box-shadow: 0px 2px 7px 0px #464646;
+  z-index: 997;
+  
+}
+
+#nav-con{
+  margin: -12px -12px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding-right: 0;
+  
+
+}
+
+.btn-coll{
+  border:none;
+  background: none;
+  margin-right: -120px;
+}
+
+.offcanvas{
+
+  background-color: rgba(0, 0, 0, 0.85);
+  
+}
+
+.ofcanvas-btn{
+  display: block;
+  background-color:transparent;
+  border: none;
+  color: white;
+  font-weight:500;
+  height: 80px;;
+  width: 100%;
+  margin-top: 0;
+  padding-right: 0;
+ 
+}
+.ofcanvas-btn:hover{
+  border-bottom: 4px solid rgba(255, 89, 0, 0.832);
+}
+.btn-close{
+  width: 25px;
+  background-color: darkgreen ;
+
+}
+.carousel{
+  margin-top: 10px;
+
+}
+
+.carousel-caption{
+
+  top: 200px;
+  right: 20px;
+}
+.btn-intro{
+  background-color: #0cbb60;
+  font-weight:300;
+  font-size: 20px;
+  color: white;
+  width: 200px;
+  padding: 10px;
+
+}
+.btn-intro:hover{
+  background-color: #0cbb60;
+  opacity: 0.8;
+}
+.about-section{
+ margin-top: 15px;
+ text-align: center;
+}
+.fs-2{
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+  text-decoration-line:underline;
+  text-decoration-color: #0cbb60;
+  text-underline-offset: 15px;
+}
+
+.card-img-top { 
+  height: 200px; 
+  object-fit: cover;
+ }
+ .mang-section{
+  margin-top: 70px;
+  align-items: center;
+ }
+ .mang-photo{
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+ }
+.mang-word{
+  text-align: right;
+  margin-top: 20px;
+}
+.card{
+  box-shadow: 2px 2px 8px 3px #c2bebe;
+}
+.pro-card-title:hover{
+  color: green;
+  cursor: pointer;
+}
+
+.fact-num{
+  font-size: 40px;
+  font-weight:bold;
+  color: #0cbb60;
+}
+
+.contact-container{
+  margin-top: 15px;
+  padding: 10px;
+  align-items: center;
+
+}
+.contact-icon{
+  width: 40px;
+  display: inline-block;
+  margin-bottom: 10px;
+  
+}
+
+::placeholder {
+   color: rgb(171, 161, 161);  
+   font-size: 14px; 
+   text-align: end;
+   }
+
+.top-right-placeholder {
+    position: relative; 
+   
+} 
+.top-right-placeholder::placeholder { 
+
+  position: absolute; 
+  top:0;
+  right: 0; 
+  padding: 6px;
+}
+ 
